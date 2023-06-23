@@ -20,7 +20,7 @@ print("Equação da velocidade: " + str(Derivada))
 
 # Calculando a velocidade aos 7s
 Velocidade = Derivative(funcao(t), t).doit().subs({t:7})
-print("Equação da velocidade em 7s : " + str(Velocidade))
+print("Velocidade em 7s : " + str(Velocidade) + " m/s")
 
 # Calculando a derivada segunda do deslocamento -> aceleração
 DerivadaSegunda = Derivative(funcao(t), t, 2).doit()
@@ -30,7 +30,7 @@ print("Equação da aceleração: " + str(DerivadaSegunda))
 
 # Calculando a aceleração em 2s
 Aceleracao = Derivative(funcao(t), t, 2).doit().subs({t:2})
-print("Aceleração em 2s: " + str(Aceleracao))
+print("Aceleração em 2s: " + str(Aceleracao) + " m/s²")
 
 
 
