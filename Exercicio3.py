@@ -14,4 +14,4 @@ def funcao(x):
 
 # calculando a intergral da função de força variável -> trabalho em entre 1m e 12m de deslocamento
 Trabalho = Integral(funcao(x), (x, 1, 12)).doit()
-print("Trabalho realizado ")
+print("Trabalho realizado entre 1m e 12m foi de " + str(Trabalho) + " J")
