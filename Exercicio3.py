@@ -1,5 +1,5 @@
 # imporatções necessarias para solucionar a questão
-from sympy import Integral, Symbol, exp
+from sympy import Integral, Symbol
 
 # definindo o componente C da expressão
 c = 1994 % 10       # C -> resto do numero de metricula dividido por 10
