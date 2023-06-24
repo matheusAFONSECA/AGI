@@ -17,4 +17,4 @@ def funcao(x):
 resultado = solve(funcao(x))
 
 # mostrando o resultado da questão
-print("A solução da questão é: " + str(resultado))
+print("A solução da equação é: " + str(resultado))
