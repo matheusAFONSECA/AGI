@@ -2,7 +2,7 @@
 from sympy import Symbol, solve
 
 # definindo o componente C da expressão
-c = 1994 % 10       # C -> resto do numero de metricula dividido por 10
+c = 1994 % 10       # C -> resto do numero de matricula dividido por 10
 
 # definindo o valor das tensões
 V1 = 7 + (2*c)
@@ -10,7 +10,6 @@ V2 = 12 + (2*c)
 
 # definindo os simbolos matemáticos
 i1 = Symbol('i1')
-i2 = Symbol('i2')
 i3 = Symbol('i3')
 
 
@@ -38,4 +37,3 @@ i2 = (resultado[i1] + resultado[i3]) * (-1)
 print("Corrente 1: " + str(resultado[i1]) + " A")
 print("Corrente 2: " + str(i2) + " A")
 print("Corrente 3: " + str(resultado[i3]) + " A")
-

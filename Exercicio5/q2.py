@@ -2,7 +2,7 @@
 from sympy import Symbol, solve
 
 # definindo o componente C da expressão
-c = 1994 % 10       # C -> resto do numero de metricula dividido por 10
+c = 1994 % 10       # C -> resto do numero de matricula dividido por 10
 
 # definindo o simbolo
 x = Symbol('x')

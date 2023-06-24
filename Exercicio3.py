@@ -2,10 +2,11 @@
 from sympy import Integral, Symbol
 
 # definindo o componente C da expressão
-c = 1994 % 10       # C -> resto do numero de metricula dividido por 10
+c = 1994 % 10       # C -> resto do numero de matricula dividido por 10
 
 # definindo o simbolo
 x = Symbol('x')
+
 
 # definindo a expressão de força variável que esta sendo aplicada no objeto
 def funcao(x):
